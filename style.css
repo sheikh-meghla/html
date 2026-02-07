@@ -108,3 +108,21 @@
       color: rgb(46, 189, 189);
       text-decoration: none;
     }
+
+
+    
+
+.design-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  .design-container img{
+  margin-bottom: 10px;
+  }
+}
+
+.design-container img{
+  width: 100px;
+  height: 300px;
+  object-fit: cover;
+}
